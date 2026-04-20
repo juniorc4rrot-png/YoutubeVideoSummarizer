@@ -1,0 +1,22 @@
+{
+  "terminal.integrated.defaultProfile.windows": "WSL",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Git Bash": {
+      "source": "Git Bash",
+      "icon": "terminal-bash"
+    },
+    "WSL": {
+      "path": "wsl.exe",
+      "args": ["-d", "Ubuntu"],
+      "icon": "terminal-linux"
+    },
+    "cmd": {
+      "path": "cmd.exe",
+      "icon": "terminal-cmd"
+    }
+  }
+}
